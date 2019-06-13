@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvFirst"
-        android:text="Implement a Listener interfce!" />
+        android:text="Implement a Listener interface!" />
 
     <Button
         android:text="Second Activity"
@@ -28,5 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonThird" />
+
+    <Button
+        android:text="Fourth Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFourth" />
 </LinearLayout>
 
