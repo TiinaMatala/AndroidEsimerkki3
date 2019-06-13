@@ -28,5 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonThird" />
+
+    <Button
+        android:text="Fouth Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFourth" />
 </LinearLayout>
 

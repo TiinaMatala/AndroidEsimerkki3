@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonSe.setOnClickListener(this);
         Button buttonTh = (Button)findViewById(R.id.buttonThird);
         buttonTh.setOnClickListener(this);
+        Button buttonFo = (Button)findViewById(R.id.buttonFourth);
+        buttonFo.setOnClickListener(this);
         tvMsg=(TextView)findViewById(R.id.tvFirst);
     }
 
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             if (button.getId()==R.id.buttonThird) {
                 tvMsg.setText("You press third button!");            }
+            if (button.getId()==R.id.buttonFourth) {
+                tvMsg.setText("You press fourth button!");            }
         }
     }
 }
